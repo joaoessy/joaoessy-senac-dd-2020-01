@@ -5,7 +5,7 @@ CREATE TABLE `exemplos`.`telefone` (
   `codigoPais` VARCHAR(2) NOT NULL,
   `ddd` VARCHAR(2) NOT NULL,
   `numero` VARCHAR(12) NOT NULL,
-  `tipoLinha` VARCHAR(255) NOT NULL,
+  `movel` INT(1) NOT NULL,
   `ativo` INT(1) NOT NULL,
   PRIMARY KEY (`id`));
   
@@ -24,7 +24,7 @@ ADD COLUMN `rua` VARCHAR(255) NOT NULL AFTER `numero`;
   
   CREATE TABLE `exemplos`.`cliente` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `nome` VARCHAR(255) NOT NULL,
+  `nome` VARCHAR(255) NOT NULL, 
   `sobrenome` VARCHAR(255) NOT NULL,
   `cpf` VARCHAR(11) NOT NULL,
   `idEndereco` INT NOT NULL,
