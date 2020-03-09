@@ -40,7 +40,7 @@ public class ExecutavelExercicio1 {
 		
 		Object[] enderecos = listaEnderecos.toArray();
 		Endereco enderecoSelecionado = (Endereco) JOptionPane.showInputDialog(null, 
-				"Selecione um endereÃ§o", "EndereÃ§o", 
+				"Selecione um endereço", "Endereço", 
 				JOptionPane.QUESTION_MESSAGE, 
 				null, enderecos, null);
 
